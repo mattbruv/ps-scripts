@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "version": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-extendscript": "^0.1.1"
+  },
+  "scripts": {
+    "build": "npx babel src --watch --out-dir lib"
+  }
+}
